@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     font-family:  'Montserrat', sans-serif;
     color: #404040;
@@ -18,42 +17,41 @@ h1,h2,h3,h4,h5,h6{
     justify-content: space-between;
     align-items: start;
     padding: 0;
- }
+} 
 .sidebar {
     display: none;
     flex: 0 0 18%;
- }
+}
 .main {
     min-width: 320px;
     margin-top: 20px;
- }
+}
 .container {   
     padding: 0 20px;
- }
+}
  .title{
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1.2;
     color: #404040;
- }
-
-/*------------------------------------*/
-
-
+}
 .aboutTitle {
     max-width: 115px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 12px;    
- }
+}
 .aboutTitleLink {
+    height: 100%;
     text-decoration: none;
     color: #404040;
     opacity: 0.5;
- }
+}
 .aboutTitleText { 
+    height: 100%;
     text-decoration: none;
     color: #404040;
     opacity: 1;
@@ -66,34 +64,28 @@ h1,h2,h3,h4,h5,h6{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
- }
+}
 .aboutDescriptionTitle {
     max-width: 410px;
     padding: 40px 0 16px;      
- }
+}
 .aboutDescriptionText {
     max-width: 410px;
     font-size: 14px;
     line-height: 1.8;
- }
+}
 .aboutImg {
     width: calc(100% + 40px);
     max-height: 220px;
     overflow-y: hidden;
     margin: 20px 0 0-20px;
- }
+}
  .aboutImg img{
-     width: 100%;
- }
-
-
-
-/*---------------------------------------*/
-
-
- .values { 
-     margin-top: 50px;
- }
+    width: 100%;
+}
+.values { 
+    margin-top: 50px;
+}
 .valuesTitle {
     min-width: auto;
 }
@@ -109,7 +101,7 @@ h1,h2,h3,h4,h5,h6{
     justify-content: start;
     align-items: center;
 }
-.valuesItem h3{
+.valuesItem h2{
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -123,22 +115,16 @@ h1,h2,h3,h4,h5,h6{
     line-height: 1.85; 
 }
 .valuesItemImg {
-    width: 70%;    
+    width: 70%; 
+    height: auto;   
 }
 .valuesItemImg img{
     width: 100%;
 }
-
-
-
-
-/*------------------------------------------*/
-
-
 .explanation {
     padding-top: 50px;
 }
-.explanationTitle h2{  
+.explanationTitle h1{  
     padding-bottom: 20px;
 }
 .exsplanationTitleLink {
@@ -168,10 +154,6 @@ h1,h2,h3,h4,h5,h6{
 }
 .explanationIcon { 
     padding: 10px 15px 0 0;
-    min-width: auto;
-}
-.explanationIcon img{
-    flex: 0 0 50%;
 }
 .icon { 
     padding-right: 20px;    
@@ -179,7 +161,7 @@ h1,h2,h3,h4,h5,h6{
 .explanationInfo{
     line-height: 2.15; 
 }
-.explanationInfo h4{
+.explanationInfo h2{
     font-size: 12px;
     font-weight: 700;
 }
@@ -195,24 +177,21 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
 }
 .explanationBtn {
+    display: block;
     width: 100%;
     min-height: 52px;
+    padding: 17px 0;
     margin: 30px 0 50px;
     background-color: #00A14B;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
     color: #fff;
     letter-spacing: 0,02em;
-}
-
-
-
- /*=============================*/ 
-
-
- 
+} 
 .communityTitle { 
     padding: 50px 0 10px;
 }
@@ -229,13 +208,6 @@ h1,h2,h3,h4,h5,h6{
 .communityContentItem { 
     padding: 20px 12px 0 0;
 }
-
-
-
-/*==========================================*/
-
-
-
 .cooperationTitle {
     padding: 50px 0 20px;
 }   
@@ -256,11 +228,6 @@ h1,h2,h3,h4,h5,h6{
 .cooperationText a{
      color: #00A14B;
 }
-
-/*-------------------------------------*/
-
-
-
 @media(min-width: 768px) {
     .title{
         font-size: 24px;
@@ -330,11 +297,6 @@ h1,h2,h3,h4,h5,h6{
         line-height: 1.75;
     }
  }
-
-
-/*--------------------------------------*/
-
-
 @media(min-width: 1024px) {
     .content{
         display: flex;
@@ -437,15 +399,6 @@ h1,h2,h3,h4,h5,h6{
         padding: 0;
     }
 }
-
-
-
-
-
-/*-===================================*/
-
-
-
 @media(min-width: 1440px){
     .container {
         padding: 0 40px;
